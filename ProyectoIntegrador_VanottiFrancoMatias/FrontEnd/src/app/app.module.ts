@@ -22,6 +22,7 @@ import { LoginComponent } from './components/login/login.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { InteresesComponent } from './components/intereses/intereses.component';
 import { SeminariosComponent } from './components/seminarios/seminarios.component';
+import { interceptorProvider } from './service/interceptor-service';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,9 @@ import { SeminariosComponent } from './components/seminarios/seminarios.componen
     HttpClientModule,
     BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [
+    interceptorProvider
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
