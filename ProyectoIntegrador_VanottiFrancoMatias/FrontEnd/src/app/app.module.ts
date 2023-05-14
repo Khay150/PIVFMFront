@@ -23,6 +23,11 @@ import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { InteresesComponent } from './components/intereses/intereses.component';
 import { SeminariosComponent } from './components/seminarios/seminarios.component';
 import { interceptorProvider } from './service/interceptor-service';
+import { NewExperienciaComponent } from './components/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './components/experiencia/edit-experiencia.component';
+import { NeweducacionComponent } from './components/educacion/neweducacion.component';
+import { EditeducacionComponent } from './components/educacion/editeducacion.component';
+
 
 @NgModule({
   declarations: [
@@ -41,7 +46,11 @@ import { interceptorProvider } from './service/interceptor-service';
     LoginComponent,
     IdiomasComponent,
     InteresesComponent,
-    SeminariosComponent
+    SeminariosComponent,
+    NewExperienciaComponent,
+    EditExperienciaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent,
   ],
   imports: [
     BrowserModule,
