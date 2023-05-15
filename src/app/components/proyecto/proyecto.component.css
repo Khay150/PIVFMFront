@@ -1,6 +1,6 @@
 .row{
     padding: 20px;
-    background-color: aquamarine;
+    background-color: #4FE5A8;
     margin: 0%;
 }
 
@@ -13,8 +13,13 @@
     text-align: justify;
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 .img-proyecto{
     box-shadow: 10px 10px 30px #000;
+}
+
+h1{
+
 }

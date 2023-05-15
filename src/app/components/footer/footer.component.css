@@ -1,5 +1,5 @@
 .row{
-    background-color: antiquewhite;
+    background-color: #416DF8;
     margin: 0%;
 }
 
@@ -10,4 +10,8 @@ footer{
     flex-direction: column;
     text-align: center;
     box-shadow: 0px -2px 5px #b1b0b0;
+}
+
+p{
+    
 }

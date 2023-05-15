@@ -1,15 +1,20 @@
 
 .row{
-    background-color: #F76627;
+    background-color: #59DED8;
     padding: 20px;
     margin: 0%;
 }
+
 img{
-    width: 50px;
+    width: 200px;
 }
 
 div{
     justify-content: space-between;
     /* flex-wrap: wrap; */
     align-items: center;
+}
+
+h1{
+
 }

@@ -3,9 +3,10 @@
     margin: 0%;
 }
 div{
-    background-color: #BA3AE3;
+    background-color: #41B3F8;
 }
 
-h1, h3{
+h1, h2, h3, h4{
     display: inline;
+    
 }
