@@ -7,26 +7,38 @@ div{
     background-color: #416DF8;
     text-align: center;
 }
-h1{
-   
-}
-
 
 p{
-    
-    font-size:larger;
+    color: white;
+    font-size: x-large;
+}
+
+h1{
+    color: white;
+}
+
+#nombre{
+    margin-top: 10%;
 }
 
 /*Estilo de la foto de perfil*/
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-         width: 15%; 
+         width: 10%; 
          border-radius: 100%;
          box-shadow: 3px 3px 3px black;
          left: 3%;
-         top: 350px;
+         top: 490px;
     }
+
+    .descripcion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
 }
 @media (max-width: 575px){
     #fotodeperfil{
@@ -35,7 +47,7 @@ p{
          border-radius: 100%;
          box-shadow: 3px 3px 3px grey;
          left: 35%;
-         top: 75%;
+         top: 550px;
     }
 }
 
